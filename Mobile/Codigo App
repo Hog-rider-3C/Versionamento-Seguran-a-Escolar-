@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Segurança Escolar",
+    "slug": "seguranca-escolar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/seguranca-escolar.png",
+    "scheme": "segurancaescolar",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#111318",
+        "foregroundImage": "./assets/images/seguranca-escolar.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.rafael11100.segurancaescolar"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/seguranca-escolar.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/seguranca-escolar.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#111318",
+          "dark": {
+            "backgroundColor": "#111318"
+          }
+        }
+      ],
+      "expo-secure-store",
+      "expo-font",
+      "expo-status-bar",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "f5f1b7f6-5c56-4fdc-afa4-f6940c7c419a"
+      }
+    }
+  }
+}
