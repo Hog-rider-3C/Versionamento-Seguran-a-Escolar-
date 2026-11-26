@@ -1,4 +1,4 @@
-# Versionamento-Seguran-a-Escolar-
+# Versionamento-Seguranca-Escolar
 
 School Safe — Plano de implementação
 Painel mobile-first para telemetria escolar. O inventário vem do firmware por meio do JazzSecurity; não há uma quantidade fixa de sensores na interface. Atualmente o backend reconhece os tipos PIR e MQ-2. A IA de conversa chama-se UmbrellA e vem do Adan-Stella, que pertence ao Projeto Éden.
